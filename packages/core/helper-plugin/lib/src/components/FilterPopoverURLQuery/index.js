@@ -115,7 +115,7 @@ const FilterPopoverURLQuery = ({ displayedFilters, isVisible, onToggle, source }
   const operator = modifiedData.filter;
 
   return (
-    <Popover source={source} padding={3} spacingTop={1}>
+    <Popover source={source} padding={3} spacing={4}>
       <FocusTrap onEscape={onToggle}>
         <form onSubmit={handleSubmit}>
           <Stack size={1} style={{ minWidth: 184 }}>
